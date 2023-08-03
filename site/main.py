@@ -8,7 +8,7 @@ def homepage():
 
 @app.route('/contatos')
 def contatos():
-    return render_template('contatos.html')
+    return render_template("contatos.html")
 
 @app.route('/usuarios/<nome_usuario>')
 def usuarios(nome_usuario):
